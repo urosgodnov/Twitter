@@ -97,7 +97,7 @@ for (i in 1:length(naslov))
   print(i)
   
   filenm = paste("twitter_", trenutni,".Rda", sep = "")
-  save(dfrating, file = filenm)
+  save(podatki, file = filenm)
   
 }
 
